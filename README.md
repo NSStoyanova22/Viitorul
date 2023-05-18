@@ -3,7 +3,7 @@
 
 | Name | Role | Grade |
 | :---:   | :---: | :---: |
-| Boris Filip | Back-end developer | 🟨 9A |
-| Dimaya Noneva | Designer | 🟥 9B |
-| Gabriela Noneva | Back-end developer  | 🟩 9V |
-| Nikol Stoyanova |  SCRUM trainer  | 🟦 9G |
+| Boris Milev | Front-end developer | 🟨 8A |
+| Dimaya Noneva | Designer | 🟥 8B |
+| Gabriela Encheva | Front-end developer  | 🟩 8V |
+| Nikol Stoyanova |  SCRUM trainer  | 🟦 8G |
