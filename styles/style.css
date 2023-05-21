@@ -1,0 +1,63 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg.jpg");
+}
+
+.navbar
+{
+    width: 100%; /* Using 100% not (X)px, because with % it will detect and use the screen's width */
+    height: 46px;
+    background-color: #33313B;
+}
+
+.nbar_ul 
+{
+    list-style-type: none; /* Removes the bullets from the list */
+    margin: 0px;
+    padding: 0px;
+}
+  
+.nbar_li 
+{
+    float: left;
+}
+
+.nbar_ul a /* <a> tag in the .nbar_ul class */ 
+{
+    display: flex; /* Vertical padding doesn't work without it */
+    color: #E3C4A8;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nbar_li a:hover 
+{
+    background-color: #4592AF;
+}
+
+.quote_text
+{
+    font-size: 20px;
+    color: beige;
+}
+
+.logo
+{
+    width: 250px;
+    height: 220px;
+}
+
+.quote
+{
+    margin-left: 32.5%;
+    margin-top: 35px;
+    padding: 0px;
+    width: 35%;
+    height: 100px;
+    background-color: #33313B;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+}
