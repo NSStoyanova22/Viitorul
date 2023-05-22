@@ -10,6 +10,11 @@ body
     width: 100%; /* Using 100% not (X)px, because with % it will detect and use the screen's width */
     height: 46px;
     background-color: #33313B;
+    /*Centering nav bar items*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .nbar_ul 
