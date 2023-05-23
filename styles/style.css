@@ -36,7 +36,7 @@ body
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+
 .nbar_li a:hover 
 {
     background-color: #4592AF;
@@ -44,7 +44,8 @@ body
 
 .quote_text
 {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 1.95vh;
     color: beige;
 }
 
@@ -59,10 +60,39 @@ body
     margin-left: 32.5%;
     margin-top: 35px;
     padding: 0px;
-    width: 35%;
-    height: 100px;
+    /*width: 35%;*/
+    width: 35vw;
+    /* height: 100px; */
+    height: 10vh;
     background-color: #33313B;
     display: flex;
     text-align: center;
     border-radius: 20px;
 }
+
+.bag_cont
+{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 95vw;
+}
+
+.logo
+{
+    background-color: aqua;
+    width: 50%;
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+
+.btn
+{
+    margin-top: 1.3vh;
+    background-color: #33313B;
+    border: none;
+    color: #E3C4A8;
+    font-size: 15px;
+}
+

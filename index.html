@@ -8,21 +8,44 @@
 </head>
 
 <body>
-    
 
     <nav class="navbar"> 
     <ul class="nbar_ul">
-        <li class="nbar_li"><a class="nbar_a" href="#home">Home</a></li>
-        <li class="nbar_li"><a class="nbar_a" href="#news">Products</a></li>
-        <li class="nbar_li"><a class="nbar_a" href="#contact">About us</a></li>
-        <li class="nbar_li"><a class="nbar_a" href="#about">Sign up</a></li>
+        <li class="nbar_li"><a href="#home">Home</a></li>
+        <li class="nbar_li"><a href="#news">Products</a></li>
+        <li class="nbar_li"><a href="#contact">About us</a></li>
+        <!-- <li class="nbar_li"><a href="#sign_up">Sign up</a></li> -->
+        <!-- <li class="nbar_li"><a class="nbar_a" href="#sign_in">Sign in</a></li> -->
+        <button class="btn">Sign in | Sign up</button>
+        <!-- <button class="btn"> Submit </button> -->
       </ul>
     </nav>
+
+    <script>
+        var  btn = document.querySelector(".btn");
+        var position;
+        btn.addEventListener("mouseover", function () {
+            position ? (position = 0) : (position = 150);
+            btn.style.transform = `translate(${position}px, 0px)`;
+            btn.style.transition = "all 0.3s ease";
+        });
+    </script>
+
+    <br>
+
+    <div class="bag_cont">
+        <p>Bag:</p>
+        <img class="bag" src="./images/bag.png" alt="PRIMER">
+     </div>
 
     <div class="quote">
         <p class="quote_text">"Don't think of robots as a replacement of humans - think of them as things that will help you to be better
             at taking many of the problems we race."
         </p>
+    </div>
+
+    <div class="logo">
+        <h1>LOGO HERE</h1>
     </div>
 
 </body>
