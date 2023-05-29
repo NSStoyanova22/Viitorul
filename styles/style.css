@@ -45,8 +45,11 @@ body
 .quote_text
 {
     /*font-size: 20px;*/
-    font-size: 1.95vh;
-    color: beige;
+    /*font-size: 1.95vh;*/
+    font-size: 1.75vh;
+    margin-top: 37.5%;
+    /*color: beige;*/
+    color: #33313B;
 }
 
 .logo
@@ -57,14 +60,15 @@ body
 
 .quote
 {
-    margin-left: 32.5%;
-    margin-top: 35px;
+    /*margin-left: 32.5%;*/ 
+    margin-left: 33%;
+    /*margin-top: 35px;*/
     padding: 0px;
     /*width: 35%;*/
     width: 35vw;
     /* height: 100px; */
     height: 10vh;
-    background-color: #33313B;
+    /*background-color: #33313B;*/
     display: flex;
     text-align: center;
     border-radius: 20px;
@@ -79,12 +83,19 @@ body
     margin-left: 95vw;
 }
 
-.logo
+.logo_long_div
 {
-    background-color: aqua;
     width: 50%;
-    margin-left: 25vw;
-    margin-top: 10vh;
+    margin-left: 24%;
+    /*margin-top: 3vh;*/
+    margin-top: -13vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_long
+{
+    width: 100%;
 }
 
 .btn
@@ -96,3 +107,120 @@ body
     font-size: 15px;
 }
 
+form
+{
+
+    width: 300px;
+    height: 400px;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5%;
+    margin-left: 42%;
+    background-color: #33313B;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+form:hover
+{
+    margin-top: -5.75%;
+    transition: 0.3s;
+}
+
+form a
+{
+    text-decoration: none;
+    color:#33313B
+}
+
+label
+{
+    color: white;
+}
+
+.icons
+{
+    float: left;
+    display: inline;
+    width: 14%;
+    margin-left: 15%;
+}
+
+.del
+{
+    height: 200px;
+    width: 200px;
+}
+
+.del_p
+{
+    margin-left: 22%;
+    margin-top: -5.5%;
+    font-size: 2vh;
+}
+
+.del_p2
+{
+    margin-left: -30%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.truck
+{
+    height: 200px;
+    width: 210px;
+}
+
+.truck_p
+{
+    margin-left: 14%;
+    margin-top: -5%;
+    font-size: 2vh;
+}
+
+.truck_p2
+{
+    margin-left: -30%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.stamp
+{
+    height: 200px;
+    width: 300px;
+    margin-top: 2%;
+}
+
+.stamp_p
+{
+    margin-left: 30%;
+    margin-top: -5%;
+    font-size: 2vh;
+}
+
+.stamp_p2
+{
+    margin-top: -5%;
+    text-align: center;
+}
+
+.logo_small_div
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -7.5%;
+}
+
+.logo_small
+{
+    width: 325px;
+    height: 300px;
+    display: flex;
+    justify-self: center;
+}
