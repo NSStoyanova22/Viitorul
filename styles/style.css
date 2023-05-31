@@ -214,13 +214,13 @@ label
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -7.5%;
+    margin-top: -15.5%;
 }
 
 .logo_small
 {
-    width: 325px;
-    height: 300px;
+    width: 275px;
+    height: 250px;
     display: flex;
     justify-self: center;
 }
@@ -235,6 +235,68 @@ label
 
 .payment
 {
-    margin-left: 3.5%;
-    margin-top: -1.25%;
+        margin-left: 4%;
+        margin-top: -1%;
+        width: 10%;
+}
+
+.payment2
+{
+    margin-left: 4.1%;
+    margin-top: -0.5%;
+    width: 10%;
+}
+
+.phone
+{
+    width: 40px;
+    height: 40px;
+}
+
+.phone_div
+{
+    width: 7%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 46.35%;
+}
+
+.email
+{
+    width: 60px;
+    height: 60px;
+}
+
+.email_div
+{
+    width: 10%;
+    height: 5%;
+    margin-top: -3%;
+    margin-left: 87%;
+    display: flex;
+    align-items: center;
+}
+
+.social_media
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.social_media p
+{
+    margin-left: -24%;    
+}
+
+.contact
+{
+    margin-top: 8%;
+    margin-left: 46.25%;
 }
