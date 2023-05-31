@@ -103,13 +103,13 @@ body
     display: flex;
     justify-content: space-between;
     float: left;
-    margin-left: 13.5%;
+    margin-left: 11%;
 }
 
 .leaders img
 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: solid black 3px;
     border-radius: 50%;
 }
@@ -117,7 +117,7 @@ body
 .pos
 {
     border: solid black 3px;
-    margin-left: 11%;
+    margin-left: 10.60%;
     width: 11%;
     margin-top: 1%;
     display: inline;
@@ -128,5 +128,6 @@ body
 .pos h4, h5
 {
     margin: 4px;
+    font-size: 2vh;
     text-align: center;
 }
