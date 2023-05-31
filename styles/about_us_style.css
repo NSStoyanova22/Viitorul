@@ -45,12 +45,13 @@ body
 .heading
 {
     text-align: center;
+    font-size: 6vh;
 }
 
 .strategy
 {
     background-color: powderblue;
-    width: 90%;
+    width: 45%;
     margin-left: 5%;
 }
 
@@ -67,7 +68,7 @@ body
 .choose_us
 {
     background-color: wheat;
-    width: 90%;
+    width: 45%;
     margin-left: 5%;
     margin-top: -0.25%;
 }
@@ -82,13 +83,13 @@ body
     margin: 5px;
 }
 
-.choose_us img
+.choose_us_img
 {
-    margin-left: 75.1%;
-    margin-top: -50%;
+    margin-left: 63.5%;
+    margin-top: -12.5%;
     border: solid black 3px;
-    width: 420px;
-    height: 240px;
+    width: 650px;
+    height: 390px;
 }
 
 .heading2
