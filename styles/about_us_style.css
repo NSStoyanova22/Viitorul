@@ -69,7 +69,7 @@ body
     background-color: wheat;
     width: 90%;
     margin-left: 5%;
-    margin-top: -0.4%;
+    margin-top: -0.25%;
 }
 
 .choose_us p
@@ -84,11 +84,11 @@ body
 
 .choose_us img
 {
-    margin-left: 71%;
+    margin-left: 75.1%;
     margin-top: -50%;
     border: solid black 3px;
-    width: 320px;
-    height: 180px;
+    width: 420px;
+    height: 240px;
 }
 
 .heading2
@@ -102,7 +102,7 @@ body
     display: flex;
     justify-content: space-between;
     float: left;
-    margin-left: 10%;
+    margin-left: 13.5%;
 }
 
 .leaders img
