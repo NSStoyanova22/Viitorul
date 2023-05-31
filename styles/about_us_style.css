@@ -1,0 +1,131 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg.jpg");
+}
+
+.navbar
+{
+    width: 100%; /* Using 100% not (X)px, because with % it will detect and use the screen's width */
+    height: 46px;
+    background-color: #33313B;
+    /*Centering nav bar items*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nbar_ul 
+{
+    list-style-type: none; /* Removes the bullets from the list */
+    margin: 0px;
+    padding: 0px;
+}
+  
+.nbar_li 
+{
+    float: left;
+}
+
+.nbar_ul a /* <a> tag in the .nbar_ul class */ 
+{
+    display: flex; /* Vertical padding doesn't work without it */
+    color: #E3C4A8;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nbar_li a:hover 
+{
+    background-color: #4592AF;
+}
+
+.heading
+{
+    text-align: center;
+}
+
+.strategy
+{
+    background-color: powderblue;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.strategy p
+{
+    margin: 4px;
+}
+
+.strategy h2
+{
+    margin: 5px;
+}
+
+.choose_us
+{
+    background-color: wheat;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -0.4%;
+}
+
+.choose_us p
+{
+    margin: 4px;
+}
+
+.choose_us h2
+{
+    margin: 5px;
+}
+
+.choose_us img
+{
+    margin-left: 71%;
+    margin-top: -50%;
+    border: solid black 3px;
+    width: 320px;
+    height: 180px;
+}
+
+.heading2
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.leaders
+{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-left: 10%;
+}
+
+.leaders img
+{
+    width: 150px;
+    height: 150px;
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+.pos
+{
+    border: solid black 3px;
+    margin-left: 11%;
+    width: 11%;
+    margin-top: 1%;
+    display: inline;
+    float: left;
+    justify-content: space-between;
+}
+
+.pos h4, h5
+{
+    margin: 4px;
+    text-align: center;
+}
