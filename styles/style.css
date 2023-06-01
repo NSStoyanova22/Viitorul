@@ -121,13 +121,6 @@ form
     margin-left: 42%;
     background-color: #33313B;
     border-radius: 20px;
-    transition: 0.3s;
-}
-
-form:hover
-{
-    margin-top: -5.75%;
-    transition: 0.3s;
 }
 
 form a
@@ -209,6 +202,7 @@ label
     text-align: center;
 }
 
+/*
 .logo_small_div
 {
     margin-left: 40%;
@@ -224,14 +218,7 @@ label
     display: flex;
     justify-self: center;
 }
-
-.p_met
-{  
-    margin-left: 3%;
-    margin-top: -17.5%;
-    width: 12.5%;
-    font-size: 3vh;
-}
+*/
 
 /*
 .payment
@@ -251,9 +238,10 @@ label
 
 .payment
 {
-    width: 35%;
-    height: 25%;
-    margin-bottom: -20%;
+    width: 650px;
+    margin-bottom: -7%;
+    margin-top: -5.5%;
+    height: 300px;
     margin-left: 32.5%;
 }
 
@@ -283,7 +271,7 @@ label
     width: 10%;
     height: 5%;
     margin-top: -3%;
-    margin-left: 87%;
+    margin-left: 75%;
     display: flex;
     align-items: center;
 }
@@ -298,46 +286,48 @@ label
 {
     width: 50px;
     height: 50px;
+    margin-top: -3.25%;
 }
 
 .social_media p
 {
-    margin-left: -24%;    
+    margin-left: -24%;
+    margin-top: -2.5%;    
 }
 
 .contact
-{
+{   
     margin-left: 46.25%;
 }
 
+/*
 .banner
 {
-    width: 100%;
+    width: 101.5%;
     height: 150px;
-    display: flex;
-    justify-content: space-between;
+    background-image: url("./banner.png");
 }
 
 .banner img
 {
     width: 100px;
     height: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 50px;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 
 .banner_text
 {
-    display: flex;
-    justify-content: space-between;
+    margin-top: -1.5%;
+    margin-left: 2.9%;
 }
 
 .banner_text p
 {
     display: inline;
-    margin: 2px;
-    margin-left: 11.55%;
-    margin-right: 10%;
-    margin-top: -2%;
     text-align: center;
+    margin: 80px;
+    color: dodgerblue;
 }
+*/

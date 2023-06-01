@@ -137,3 +137,67 @@ body
     font-size: 2vh;
     text-align: center;
 }
+
+.payment
+{
+    width: 650px;
+    margin-bottom: -7%;
+    margin-top: -5.5%;
+    height: 300px;
+    margin-left: 32.5%;
+}
+
+.phone
+{
+    width: 40px;
+    height: 40px;
+}
+
+.phone_div
+{
+    width: 7%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 46.35%;
+}
+
+.email
+{
+    width: 60px;
+    height: 60px;
+}
+
+.email_div
+{
+    width: 10%;
+    height: 5%;
+    margin-top: -3%;
+    margin-left: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.social_media
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: -3.25%;
+}
+
+.social_media p
+{
+    margin-left: -24%;
+    margin-top: -2.5%;    
+}
+
+.contact
+{   
+    margin-left: 46.25%;
+}
