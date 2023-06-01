@@ -53,6 +53,8 @@ body
     background-color: powderblue;
     width: 45%;
     margin-left: 5%;
+    border: solid black 2px;
+    border-radius: 5%;
 }
 
 .strategy p
@@ -70,7 +72,9 @@ body
     background-color: wheat;
     width: 45%;
     margin-left: 5%;
-    margin-top: -0.25%;
+    margin-top: 1%;
+    border: solid black 2px;
+    border-radius: 5%;
 }
 
 .choose_us p
@@ -90,6 +94,7 @@ body
     border: solid black 3px;
     width: 650px;
     height: 390px;
+    border-radius: 20%;
 }
 
 .heading2
