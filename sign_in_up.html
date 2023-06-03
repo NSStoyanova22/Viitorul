@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+    <script src="./2d/javas.js"></script>
     <nav class="navbar"> 
     <ul class="nbar_ul">
         <li class="nbar_li"><a href="./index.html">Home</a></li>
@@ -43,11 +43,40 @@
     </div>
 
     <form>
-        <label>Username:</label>
-        <input type="text" required placeholder=username>
-        <label>Password:</label>
-        <input type="password" required placeholder=password>
-        <button><a href="./index.html">Log in</a></button>  <button><a href="./index.html">Register</a></button>
+
+        <label for="name">Username:</label>
+        <input type="name" placeholder="Enter Username" name="name" required>
+
+        <label for="pws">Password:</label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button class="btn"><a href="./index.html">Log in</a></button>  
+    
+        <button class="btn" onclick="openForm()">Register</button>
+        <!--popup register form-->
+        <!--<div class="form-popup" id="register">
+            <form action="/action_page.php" class="container">
+                <h1>Register</h1>
+                    <label for="name">Username: </label>
+                    <input type="name" placeholder="Enter username" name="name"><br>
+
+                    <label for="email">Email: </label>
+                    <input type="text" placeholder="Enter email" name="email" required><br>
+
+                    <label for="phone">Phone: </label>
+                    <input type="text" pattern="[0-9]{10}" placeholder="Enter phone" required><br>
+
+                    <label for="pwd">Password: </label>
+                    <input type="password" placeholder="Enter password" required><br>
+
+                    <label for="c_password">Confirm Password: </label>
+                    <input type="password" placeholder="Repeat password" required>
+
+                <button type="submit" class="signupbtn"><a href="./index.html">Sign Up</a></button>
+                <button type="button" class="cancelbtn" onclick="closeForm()">Close</button>
+            </form>
+        </div>-->
+
     </form>
 
     <br> <br> <br> <br> <br> 
