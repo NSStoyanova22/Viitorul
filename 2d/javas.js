@@ -1,3 +1,4 @@
+//cursor follow cursor
 let cursor = document.getElementById("cube");
 
 
