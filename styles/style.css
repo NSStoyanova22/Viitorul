@@ -308,15 +308,24 @@ label
 }
 */
 
-.payment
+/*.payment
 {
     width: 650px;
     margin-bottom: -7%;
     margin-top: -5.5%;
     height: 300px;
-    margin-left: 27.5%;
-}
+    margin-left: 32%;
+}*/
+#payment-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 250px;
 
+}
+.payment{
+    width: 650px;
+}
 /*Footer*/
 .phone
 {
