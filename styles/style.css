@@ -2,9 +2,13 @@ body
 {
     margin: 0px;
     padding: 0px;
-    background-image: url("bg.jpg");
+    background-color: rgb(246, 251, 255);
 }
-
+.banner{
+    background-color: #98aeeb;
+    width: 1920px;
+    height: 100px;
+}
 /*Navbar*/
 .navbar
 {
