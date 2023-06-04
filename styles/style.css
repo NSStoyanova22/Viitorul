@@ -4,12 +4,16 @@ body
     padding: 0px;
     background-color: rgb(246, 251, 255);
 }
-.banner{
+
+.banner
+{
     background-color: #98aeeb;
     width: 1920px;
     height: 100px;
 }
+
 /*Navbar*/
+
 .navbar
 {
     width: 100%; /* Using 100% not (X)px, because with % it will detect and use the screen's width */
@@ -220,6 +224,7 @@ label
 {
     height: 200px;
     width: 200px;
+    margin-top: 75%;
 }
 
 .del_p
@@ -240,6 +245,7 @@ label
 {
     height: 200px;
     width: 210px;
+    margin-top: 75%;
 }
 
 .truck_p
@@ -261,6 +267,7 @@ label
     height: 200px;
     width: 300px;
     margin-top: 2%;
+    margin-top: 75%;
 }
 
 .stamp_p
@@ -275,16 +282,21 @@ label
     margin-top: -5%;
     text-align: center;
 }
-.prah-vid  {
+
+.prah-vid  
+{
     position: relative;
     height: 450px;
     overflow: hidden;
 }
-.prah-vid video{
+
+.prah-vid video
+{
  max-width: 100%;
 }
 
-.prah-vid-inner {
+.prah-vid-inner 
+{
     position: absolute;
     width: 100%;
     top: calc(50% - 50px);
@@ -292,19 +304,28 @@ label
 }
 
 .prah-vid-inner h2,
-.prah-vid-inner p {
+.prah-vid-inner p 
+{
     color: #fff;
 }
 
-.prah-vid-inner h2 {
+/*
+.prah-vid-inner h2 
+{
 
 }
-.prah-vid-inner p {
+.prah-vid-inner p 
+{
 
 }
-.clear {
+
+*/
+
+.clear 
+{
     clear: both;
 }
+
 /*--*/
 
 
@@ -350,17 +371,24 @@ label
     height: 300px;
     margin-left: 32%;
 }*/
-#payment-box{
+
+#payment-box
+{
+
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 250px;
+    height: 50px;
 
 }
-.payment{
+
+.payment
+{
     width: 650px;
 }
+
 /*Footer*/
+
 .phone
 {
     width: 40px;
@@ -447,3 +475,16 @@ label
     color: dodgerblue;
 }
 */
+
+.address
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.poc
+{
+    text-align: center;
+}

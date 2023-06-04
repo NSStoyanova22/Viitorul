@@ -1,3 +1,31 @@
-.product-heading{
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(246, 251, 255);
+}
+
+.banner
+{
+    background-color: #98aeeb;
+    width: 1920px;
+    height: 100px;
+}
+
+.product-heading
+{
+    text-align: center;
+}
+
+.address
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.poc
+{
     text-align: center;
 }

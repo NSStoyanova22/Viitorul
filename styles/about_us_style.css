@@ -5,11 +5,18 @@ body
   
 }
 
-.internal-page {
+.internal-page 
+{
     width: 80%;
     margin: auto;
 }
 
+.banner
+{
+    background-color: #98aeeb;
+    width: 1920px;
+    height: 100px;
+}
 
 .navbar
 {
@@ -176,7 +183,7 @@ body
     width: 10%;
     height: 5%;
     margin-top: -3%;
-    margin-left: 75%;
+    margin-left: 72%;
     display: flex;
     align-items: center;
 }
@@ -196,11 +203,24 @@ body
 
 .social_media p
 {
-    margin-left: -24%;
-    margin-top: -3.0%;    
+    margin-left: -21%;
+    margin-top: -2.5%;    
 }
 
 .contact
 {   
     margin-left: 46.25%;
+}
+
+.address
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.poc
+{
+    text-align: center;
 }
