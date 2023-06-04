@@ -5,6 +5,12 @@ body
     background-image: url("bg.jpg");
 }
 
+.internal-page {
+    width: 80%;
+    margin: auto;
+}
+
+
 .navbar
 {
     width: 100%; /* Using 100% not (X)px, because with % it will detect and use the screen's width */
@@ -51,10 +57,9 @@ body
 .strategy
 {
     background-color: powderblue;
-    width: 45%;
-    margin-left: 5%;
     border: solid black 2px;
     border-radius: 5%;
+    margin-bottom: 40px;
 }
 
 .strategy p
@@ -70,12 +75,10 @@ body
 .choose_us
 {
     background-color: wheat;
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 1%;
     border: solid black 2px;
     border-radius: 5%;
 }
+
 
 .choose_us p
 {
@@ -86,12 +89,12 @@ body
 {
     margin: 5px;
 }
-
+.flex-box {
+    display: flex;
+    gap: 50px;
+}
 .choose_us_img
 {
-    margin-left: 63.5%;
-    margin-top: -12.5%;
-    border: solid black 3px;
     width: 650px;
     height: 390px;
     border-radius: 20%;

@@ -271,6 +271,36 @@ label
     margin-top: -5%;
     text-align: center;
 }
+.prah-vid  {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+.prah-vid video{
+ max-width: 100%;
+}
+
+.prah-vid-inner {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 50px);
+    text-align: center;
+}
+
+.prah-vid-inner h2,
+.prah-vid-inner p {
+    color: #fff;
+}
+
+.prah-vid-inner h2 {
+
+}
+.prah-vid-inner p {
+
+}
+.clear {
+    clear: both;
+}
 /*--*/
 
 

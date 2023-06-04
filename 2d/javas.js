@@ -18,9 +18,10 @@ const move = (e) =>{
         var y = !Touch() ? e.pageY : e.touches[0].pageY;
     }
     catch(e){}
-
-    cursor.style.left = x - 310 + "px";
-    cursor.style.top = y - 85 + "px";
+    if(cursor) {
+        cursor.style.left = x - 310 + "px";
+        cursor.style.top = y - 85 + "px";
+    }
 };
 //For mouse
 document.addEventListener("mousemove", (e) => {
