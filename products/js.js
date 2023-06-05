@@ -20,6 +20,14 @@ function show(n) {
   for (i = 0; i < dot.length; i++) {
     dot[i].className = dot[i].className.replace(" active", "");
   }
-  slide[cnt-1].style.display = "block";  
-  dot[cnt-1].className += " active";
+  if(slide[cnt-1]){
+    slide[cnt-1].style.display = "block";  
+  }
+  if(dot[cnt-1]) {
+    dot[cnt-1].className += " active";
+  }
 }
+
+document.addEventListener('DOMContentLoaded', function(){
+  document.querySelector('.dot').click();
+})
