@@ -2,8 +2,8 @@
 ## 📋 Description
 ### Our site is simply put, a shop. It provides three special products, made out of recycable materials and each has it's own charm. We found it important to popularise more colorful designs on interesting robots.
 ## Logo(s)
-![longer-logo](https://github.com/NSStoyanova22/Viitorul/assets/132449693/9e5a8de8-a311-4394-9683-1be8b7c6db85)
-![logo1](https://github.com/NSStoyanova22/Viitorul/assets/132449693/688a4110-9691-452b-89ec-8202cb8c837d)
+![longer-logo](./images/longer-logo.png)
+![logo1](./images/logo1-fix.png)
 
 ## 👨🏻‍💻 Team Members
 
